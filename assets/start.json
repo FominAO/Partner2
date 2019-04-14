@@ -1,0 +1,62 @@
+[
+    {
+        "role": 7,
+        "isProd": true,
+        "route": "lead/employee/filtergrid"
+    },
+    {
+        "role": 6,
+        "isProd": true,
+        "route": "lead/common/filtergrid"
+    },
+    {
+        "role": 5,
+        "isProd": true,
+        "route": "lead/gai/filtergrid"
+    },
+    {
+        "role": 3,
+        "isProd": true,
+        "route": "lead/carsharing/filtergrid"
+    },
+    {
+        "role": 14,
+        "isProd": true,
+        "route": "farm/grid/act"
+    },
+    {
+        "role": 15,
+        "isProd": true,
+        "route": "common/chatbot"
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "route": "lead/employee/filtergrid"
+    },
+    {
+        "role": 7,
+        "isProd": false,
+        "route": "lead/common/filtergrid"
+    },
+    {
+        "role": 6,
+        "isProd": false,
+        "route": "lead/gai/filtergrid"
+    },
+    {
+        "role": 3,
+        "isProd": false,
+        "route": "lead/carsharing/filtergrid"
+    },
+    {
+        "role": 15,
+        "isProd": false,
+        "route": "farm/grid/act"
+    },
+    {
+        "role": 17,
+        "isProd": false,
+        "route": "common/chatbot"
+    }
+]

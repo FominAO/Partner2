@@ -1,0 +1,212 @@
+[
+    {
+        "role": 7,
+        "isProd": true,
+        "caption": "Задачи",
+        "iconCode": "assignment",
+        "route": "lead/employee/filtergrid",
+        "params": null
+    },
+    {
+        "role": 6,
+        "isProd": true,
+        "caption": "ЛИДы",
+        "iconCode": "done_outline",
+        "route": "lead/common/filtergrid",
+        "params": null
+    },
+    {
+        "role": 7,
+        "isProd": true,
+        "caption": "Сотрудники",
+        "iconCode": "contacts",
+        "route": "common/contacts",
+        "params": null
+    },
+    {
+        "role": 7,
+        "isProd": true,
+        "caption": "Сообщения",
+        "iconCode": "mail",
+        "route": "common/messages",
+        "params": null
+    },
+    {
+        "role": 5,
+        "isProd": true,
+        "caption": "Добавить номер",
+        "iconCode": "touch_app",
+        "route": "lead/gai/step",
+        "params": null
+    },
+    {
+        "role": 5,
+        "isProd": true,
+        "caption": "Список номеров",
+        "iconCode": "assignment",
+        "route": "lead/gai/filtergrid",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": true,
+        "caption": "Создать заявку",
+        "iconCode": "touch_app",
+        "route": "lead/carsharing/step",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": true,
+        "caption": "Пакетная загрузка",
+        "iconCode": "view_module",
+        "route": "lead/packet",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": true,
+        "caption": "Мои заявки",
+        "iconCode": "assignment",
+        "route": "lead/carsharing/filtergrid",
+        "params": null
+    },
+    {
+        "role": 14,
+        "isProd": true,
+        "caption": "Создать заявку",
+        "iconCode": "touch_app",
+        "route": "farm/form/create",
+        "params": null
+    },
+    {
+        "role": 14,
+        "isProd": true,
+        "caption": "Активные заявки",
+        "iconCode": "check_circle_outline",
+        "route": "farm/grid/act",
+        "params": null
+    },
+    {
+        "role": 14,
+        "isProd": true,
+        "caption": "Архив заявок",
+        "iconCode": "check_circle",
+        "route": "farm/grid/arc",
+        "params": null
+    },
+    {
+        "role": 15,
+        "isProd": true,
+        "caption": "Чат-бот",
+        "iconCode": "phone",
+        "faIcon": "fab fa-whatsapp",
+        "route": "common/chatbot",
+        "params": null
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "caption": "Задачи",
+        "iconCode": "assignment",
+        "route": "lead/employee/filtergrid",
+        "params": null
+    },
+    {
+        "role": 7,
+        "isProd": false,
+        "caption": "ЛИДы",
+        "iconCode": "done_outline",
+        "route": "lead/common/filtergrid",
+        "params": null
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "caption": "Сотрудники",
+        "iconCode": "contacts",
+        "route": "common/contacts",
+        "params": null
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "caption": "Сообщения",
+        "iconCode": "mail",
+        "route": "common/messages",
+        "params": null
+    },
+    {
+        "role": 6,
+        "isProd": false,
+        "caption": "Добавить номер",
+        "iconCode": "touch_app",
+        "route": "lead/gai/step",
+        "params": null
+    },
+    {
+        "role": 6,
+        "isProd": false,
+        "caption": "Список номеров",
+        "iconCode": "assignment",
+        "route": "lead/gai/filtergrid",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": false,
+        "caption": "Создать заявку",
+        "iconCode": "touch_app",
+        "route": "lead/carsharing/step",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": false,
+        "caption": "Пакетная загрузка",
+        "iconCode": "view_module",
+        "route": "lead/packet",
+        "params": null
+    },
+    {
+        "role": 3,
+        "isProd": false,
+        "caption": "Мои заявки",
+        "iconCode": "assignment",
+        "route": "lead/carsharing/filtergrid",
+        "params": null
+    },
+    {
+        "role": 15,
+        "isProd": false,
+        "caption": "Создать заявку",
+        "iconCode": "touch_app",
+        "route": "farm/form/create",
+        "params": null
+    },
+    {
+        "role": 15,
+        "isProd": false,
+        "caption": "Активные заявки",
+        "iconCode": "check_circle_outline",
+        "route": "farm/grid/act",
+        "params": null
+    },
+    {
+        "role": 15,
+        "isProd": false,
+        "caption": "Архив заявок",
+        "iconCode": "check_circle",
+        "route": "farm/grid/arc",
+        "params": null
+    },
+    {
+        "role": 17,
+        "isProd": false,
+        "caption": "Чат-бот",
+        "iconCode": "phone",
+        "faIcon": "fab fa-whatsapp",
+        "route": "common/chatbot",
+        "params": null
+    }
+]

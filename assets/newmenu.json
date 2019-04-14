@@ -1,0 +1,304 @@
+[
+    {
+        "role": 7,
+        "isProd": true,
+        "label": "Задачи",
+        "icon": "assignment",
+        "link": "lead/employee/filtergrid"
+    },
+    {
+        "role": 6,
+        "isProd": true,
+        "label": "ЛИДы",
+        "icon": "done_outline",
+        "link": "lead/common/filtergrid"
+    },
+    {
+        "role": 7,
+        "isProd": true,
+        "label": "Сотрудники",
+        "icon": "contacts",
+        "link": "common/contacts"
+    },
+    {
+        "role": 7,
+        "isProd": true,
+        "label": "Сообщения",
+        "icon": "mail",
+        "link": "common/messages"
+    },
+    {
+        "role": 5,
+        "isProd": true,
+        "label": "Номера",
+        "icon": "monetization_on",
+        "items": [
+            {
+                "role": 5,
+                "isProd": true,
+                "label": "Добавить номер",
+                "icon": "touch_app",
+                "link": "lead/gai/step"
+            },
+            {
+                "role": 5,
+                "isProd": true,
+                "label": "Список номеров",
+                "icon": "assignment",
+                "link": "lead/gai/filtergrid"
+            }
+        ]
+    },
+    {
+        "role": 3,
+        "isProd": true,
+        "label": "Каршеринг",
+        "icon": "airport_shuttle",
+        "items": [
+            {
+                "role": 3,
+                "isProd": true,
+                "label": "Создать заявку",
+                "icon": "touch_app",
+                "link": "lead/carsharing/step"
+            },
+            {
+                "role": 3,
+                "isProd": true,
+                "label": "Пакетная загрузка",
+                "icon": "view_module",
+                "link": "lead/packet"
+            },
+            {
+                "role": 3,
+                "isProd": true,
+                "label": "Мои заявки",
+                "icon": "assignment",
+                "link": "lead/carsharing/filtergrid"
+            }
+        ]
+    },
+    {
+        "role": 14,
+        "isProd": true,
+        "label": "Ферма",
+        "icon": "pets",
+        "items": [
+            {
+                "role": 14,
+                "isProd": true,
+                "label": "Создать заявку",
+                "icon": "touch_app",
+                "link": "farm/form/create"
+            },
+            {
+                "role": 14,
+                "isProd": true,
+                "label": "Активные заявки",
+                "icon": "check_circle_outline",
+                "link": "farm/grid/act"
+            },
+            {
+                "role": 14,
+                "isProd": true,
+                "label": "Архив заявок",
+                "icon": "check_circle",
+                "link": "farm/grid/arc"
+            }
+        ]
+    },
+    {
+        "role": 15,
+        "isProd": true,
+        "label": "Чат-бот",
+        "faIcon": "fab fa-whatsapp",
+        "link": "common/chatbot"
+    },
+    {
+        "role": 17,
+        "isProd": true,
+        "label": "Админ",
+        "icon": "fingerprint",
+        "items": [
+            {
+                "role": 17,
+                "isProd": true,
+                "label": "Роли",
+                "icon": "group",
+                "link": "admin/roles/list"
+            },
+            {
+                "role": 17,
+                "isProd": true,
+                "label": "Добавить роль",
+                "icon": "group_add",
+                "link": "admin/roles/list"
+            },
+            {
+                "role": 17,
+                "isProd": true,
+                "label": "Пользователи",
+                "icon": "person",
+                "link": "admin/users/list"
+            },
+            {
+                "role": 17,
+                "isProd": true,
+                "label": "Добавить пользователя",
+                "icon": "person_add",
+                "link": "admin/users/create"
+            }
+        ]
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "label": "Задачи",
+        "icon": "assignment",
+        "link": "lead/employee/filtergrid"
+    },
+    {
+        "role": 7,
+        "isProd": false,
+        "label": "ЛИДы",
+        "icon": "done_outline",
+        "link": "lead/common/filtergrid"
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "label": "Сотрудники",
+        "icon": "contacts",
+        "link": "common/contacts"
+    },
+    {
+        "role": 9,
+        "isProd": false,
+        "label": "Сообщения",
+        "icon": "mail",
+        "link": "common/messages"
+    },
+    {
+        "role": 6,
+        "isProd": false,
+        "label": "Номера",
+        "icon": "monetization_on",
+        "items": [
+            {
+                "role": 6,
+                "isProd": false,
+                "label": "Добавить номер",
+                "icon": "touch_app",
+                "link": "lead/gai/step"
+            },
+            {
+                "role": 6,
+                "isProd": false,
+                "label": "Список номеров",
+                "icon": "assignment",
+                "link": "lead/gai/filtergrid"
+            }
+        ]
+    },
+    {
+        "role": 3,
+        "isProd": false,
+        "label": "Каршеринг",
+        "icon": "airport_shuttle",
+        "items": [
+            {
+                "role": 3,
+                "isProd": false,
+                "label": "Создать заявку",
+                "icon": "touch_app",
+                "link": "lead/carsharing/step"
+            },
+            {
+                "role": 3,
+                "isProd": false,
+                "label": "Пакетная загрузка",
+                "icon": "view_module",
+                "link": "lead/packet"
+            },
+            {
+                "role": 3,
+                "isProd": false,
+                "label": "Мои заявки",
+                "icon": "assignment",
+                "link": "lead/carsharing/filtergrid"
+            }
+        ]
+    },
+    {
+        "role": 15,
+        "isProd": false,
+        "label": "Ферма",
+        "icon": "pets",
+        "items": [
+            {
+                "role": 15,
+                "isProd": false,
+                "label": "Создать заявку",
+                "icon": "touch_app",
+                "link": "farm/form/create"
+            },
+            {
+                "role": 15,
+                "isProd": false,
+                "label": "Активные заявки",
+                "icon": "check_circle_outline",
+                "link": "farm/grid/act"
+            },
+            {
+                "role": 15,
+                "isProd": false,
+                "label": "Архив заявок",
+                "icon": "check_circle",
+                "link": "farm/grid/arc"
+            }
+        ]
+    },
+    {
+        "role": 17,
+        "isProd": false,
+        "label": "Чат-бот",
+        "faIcon": "fab fa-whatsapp",
+        "link": "common/chatbot"
+    },
+    {
+        "role": 18,
+        "isProd": false,
+        "label": "Админ",
+        "icon": "fingerprint",
+        "items": [
+            {
+                "role": 18,
+                "isProd": false,
+                "label": "Роли",
+                "icon": "group",
+                "link": "admin/roles/list"
+            },
+            {
+                "role": 18,
+                "isProd": false,
+                "label": "Добавить роль",
+                "icon": "group_add",
+                "link": "admin/roles/form"
+            },
+            {
+                "role": 18,
+                "isProd": false,
+                "label": "Пользователи",
+                "icon": "person",
+                "link": "admin/users/list"
+            },
+            {
+                "role": 18,
+                "isProd": false,
+                "label": "Доб. пользователя",
+                "icon": "person_add",
+                "link": "admin/users/create"
+            }
+        ]
+    }
+]
