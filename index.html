@@ -24,6 +24,7 @@
   <link rel="smartbanner-apple-touch-icon" href="https://www.major-auto.ru/plugins/smartbanner/androidIcon.png">
   <link rel="smartbanner-android-touch-icon" href="https://www.major-auto.ru/plugins/smartbanner/androidIcon.png">
   <link rel="shortcut icon" sizes="196x196" href="https://www.major-auto.ru/plugins/smartbanner/androidIcon.png">
+  <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-title" content="Major">
   <meta name="short_name" content="Major">
   <meta name="application-name" content="Major">
@@ -36,5 +37,14 @@
 <body>
   <app-root></app-root>
 <script type="text/javascript" src="runtime.4ea8ae5a670e43abe983.js"></script><script type="text/javascript" src="polyfills.9a5f6d04e0781d28c53e.js"></script><script type="text/javascript" src="scripts.04c136515c4f6a1063b5.js"></script><script type="text/javascript" src="main.3170276dd37277842d10.js"></script></body>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('worker-basic.min.js').then(function(registration) {
+      console.log('Service worker зарегистрирован:', registration);
+    }).catch(function(error) {
+      console.log('Ошибка при регистрации service worker-а:', error);
+    });
+  } else {
+    console.log('Текущий браузер не поддерживает service worker-ы.');
+  }</script>
 </html>
