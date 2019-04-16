@@ -10,7 +10,7 @@
       "patterns": []
     },
     {
-      "name": "assets",
+      "name": "/Partner2/assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
